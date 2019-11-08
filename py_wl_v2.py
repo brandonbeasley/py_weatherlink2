@@ -1,5 +1,5 @@
 ########################################################################################################################
-# WeatherLink API v2 Python Library Example
+# WeatherLink API v2 Python Library
 # Author: Brandon Beasley
 # License: GNU General Public License version 3
 # Date: 11/8/2019

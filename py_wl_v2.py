@@ -1,3 +1,12 @@
+########################################################################################################################
+# WeatherLink API v2 Python Library Example
+# Author: Brandon Beasley
+# License: GNU General Public License version 3
+# Date: 11/8/2019
+# Interpreter: Python 3.8
+########################################################################################################################
+
+
 import time
 import hmac
 import hashlib

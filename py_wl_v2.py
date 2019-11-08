@@ -98,12 +98,6 @@ class WeatherLink:
                             '&api-signature=' + self.signature({'station-id': station_id}) + '&t=' + str(self.timestamp))
 
     def historic(self, station_id, start_timestamp, end_timestamp):
-
-        pprint(self.API_URL_V2 + 'historic/' + str(station_id) + '?api-key=' + self.api_key +
-                            '&api-signature=' + self.signature({'station-id': station_id, 'start-timestamp': start_timestamp, 'end_timestamp': end_timestamp}) +
-                            '&t=' + str(self.timestamp) + '&start-timestamp=' + str(start_timestamp) +
-                            '&end-timestamp=' + str(end_timestamp))
-
         return requests.get(self.API_URL_V2 + 'historic/' + str(station_id) + '?api-key=' + self.api_key +
                             '&api-signature=' + self.signature({'station-id': station_id, 'start-timestamp': start_timestamp, 'end-timestamp': end_timestamp}) +
                             '&t=' + str(self.timestamp) + '&start-timestamp=' + str(start_timestamp) +

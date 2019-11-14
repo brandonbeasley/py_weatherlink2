@@ -3,8 +3,8 @@ WeatherLink v2 API Python Library
 by
 Brandon Beasley
 
-Very quick example of using the WeatherLink v2 API with Python 3.8
+See example code and refer to WeatherLink v2 API documentation for parameters and requirements.
 
-See examples in code and refer to WeatherLink v2 API documentation for parameters and requirements
+To sucesfully run UNITTEST setup.ini will need to contain data items specific to api key authorizations.
 
 Enjoy!
